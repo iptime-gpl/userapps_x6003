@@ -1,0 +1,2 @@
+PLT=arm
+LINUX_VERSION=2_6_36

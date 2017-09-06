@@ -1,0 +1,1 @@
+clones/x6003/clone_info.mk

@@ -1,0 +1,7 @@
+kernel/drivers/scsi/scsi_wait_scan.ko
+kernel/drivers/net/ctf/ctf.ko
+kernel/drivers/net/et/et.ko
+kernel/drivers/net/emf/emf.ko
+kernel/drivers/net/igs/igs.ko
+kernel/drivers/connector/cn.ko
+kernel/lib/libcrc32c.ko

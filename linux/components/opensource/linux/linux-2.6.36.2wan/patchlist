@@ -1,0 +1,68 @@
+M .config
+M arch/arm/Kconfig
+M arch/arm/mach-brcm-hnd/board_ns.c
+M include/linux/if_bridge.h
+M include/linux/sockios.h
+M include/linux/sysctl.h
+M include/linux/netfilter/xt_MARK.h
+M include/net/netfilter/nf_conntrack_tuple.h
+M include/net/netfilter/nf_nat.h
+M net/Kconfig
+M net/bridge/Kconfig
+M net/bridge/br_forward.c
+M net/bridge/br_input.c
+M net/bridge/br_ioctl.c
+M net/bridge/br_private.h
+M net/core/dev.c
+M net/ipv4/Kconfig
+M net/ipv4/Makefile
+M net/ipv4/arp.c
+M net/ipv4/ip_forward.c
+M net/ipv4/ip_input.c
+M net/ipv4/ip_output.c
+M net/ipv4/ipmr.c
+M net/ipv4/sysctl_net_ipv4.c
+M net/ipv4/netfilter/Kconfig
+M net/ipv4/netfilter/Makefile
+M net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.c
+M net/ipv4/netfilter/nf_nat_rule.c
+M net/netfilter/Kconfig
+M net/netfilter/Makefile
+M net/netfilter/nf_conntrack_ftp.c
+M net/netfilter/nf_conntrack_proto_tcp.c
+M net/netfilter/nf_conntrack_proto_udp.c
+M net/netfilter/xt_mark.c
+M net/netfilter/xt_string.c
+
+
+// RTMARK
+
+M net/core/fib_rules.c
+M net/ipv4/fib_rules.c
+M net/ipv4/netfilter/nf_nat_standalone.c
+M net/netfilter/nf_conntrack_core.c
+M net/netfilter/nf_conntrack_standalone.c
+M include/net/netfilter/nf_conntrack.h
+
+// New 
+
+? include/linux/rtmark.h
+? include/linux/netfilter/nf_conntrack_bnet.h
+? include/linux/netfilter/nf_conntrack_proto_esp.h
+? include/linux/netfilter/xt_NETDETECT.h
+? include/linux/netfilter/xt_dstmatch.h
+? net/ipv4/smart_qos_mon.c
+? net/ipv4/twinip.c
+? net/ipv4/netfilter/nf_conntrack_proc.c
+? net/ipv4/netfilter/nf_nat_bnet.c
+? net/ipv4/netfilter/nf_nat_ispfake.c
+? net/ipv4/netfilter/nf_nat_proto_esp.c
+? net/netfilter/ipt_dstmatch.c
+? net/netfilter/nf_conntrack_bnet.c
+? net/netfilter/nf_conntrack_ispfake.c
+? net/netfilter/nf_conntrack_proto_esp.c
+? net/netfilter/xt_NETDETECT.c
+? net/netfilter/xt_NETDETECT_handle.c
+? net/netfilter/xt_RTMARK.c
+? net/netfilter/xt_dstmatch.c
+
