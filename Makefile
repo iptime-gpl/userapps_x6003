@@ -1,4 +1,4 @@
-SUBDIRS:=lib/ul_lib busybox-1.x udhcp-0.9.8 boa-0.94.13/src iptables-1.4.12 ppp-2.4.2/pppd ppp-2.4.2/pppd/plugins/rp-pppoe poptop-1.1.4 miniupnpd-20090605 smtpclient iproute2-3.14.0 igmpproxy captcha miniupnpc-1.6
+SUBDIRS:=lib/ul_lib busybox-1.x udhcp-0.9.8 boa-0.94.13/src iptables-1.4.12 poptop-1.1.4 miniupnpd-20090605 smtpclient iproute2-3.14.0 igmpproxy captcha miniupnpc-1.6
 
 PHONY := all $(SUBDIRS)
 all: $(SUBDIRS)
